@@ -113,7 +113,7 @@ def main():
             
         with col2:
             st.subheader("Column Range")
-            start_col = st.number_input("Start Column (1 = " + str(df.columns[0]) + ")", min_value=1, value=1)
+            start_col = st.number_input("Start Column, min_value=2, value=2)
             end_col = st.number_input("End Column (max = " + str(len(df.columns)) + ")", min_value=start_col, value=len(df.columns))
         
         # Replace the duplicate output section with a single, styled output
