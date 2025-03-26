@@ -1,3 +1,9 @@
+"""
+VBA Code Developed by: Late B. N. Raviprakash
+Translated to Python by: Manojkumar Patil
+Description: This Streamlit-based application generates Markov Chain equations from user-uploaded Excel or CSV files.
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np
